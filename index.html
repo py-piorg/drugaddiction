@@ -1,24 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stop Drug Addiction</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <script src="main.js"></script>
+  <title>Stop Drug Addiction</title>
 </head>
-<body>
-    <h1>Stop Drug Addiction</h1>
-    <header class="header" id="header">
-        <a href="#"
-          ><img src="images/img7.PNG" alt="Drug Free" class="logo-img"
-        /></a>
-        <nav class="main-nav">
-            <ul class="main-nav-list">
-              <li><a class="main-nav-link" href="how.html" target="_blank">Ways to Help</a></li>
-              <li><a class="main-nav-link" href="effects.html" target="blank">Effects of Addiction</a></li>
-              <li><a class="main-nav-link" href="about.html" target="blank"</a>About Us</li>
-            </ul>
-          </nav>
-    
+<nav class="main-nav">
+  <ul class="main-nav-list">
+    <li><a class="main-nav-link" href="how.html" target="_blank">Ways to Help</a></li>
+    <li><a class="main-nav-link" href="effects.html" target="blank">Effects of Addiction</a></li>
+    <li><a class="main-nav-link" href="about.html" target="blank">About Us</li>
+  </ul>
+</nav>
+<button class="btn-mobile-nav">
+  <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+  <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+</button>
+</header>
+
+<main>
+  <section class="hero-section">
+    <div class="hero">
+      <div class="main-informations">
+        <h1 class="main-header">Start a new life</h1>
+        <p class="main-text">
+          Any kind of addiction can lead to serious destruction of life, and
+          a proper break is required at the right time to stop further
+          damage are rejuvenate individuals that have somehow falling into
+          this trap.
+        </p>
+      </div>
+
+      <div class="main-buttons">
+        <a href="#cta" class="btn btn-start"><span>Start a new life</span></a>
+        <a href="#how" class="btn btn-see-more"><span>See more &darr;</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section" id="cta">
+    <div class="cta container">
+      <div class="cta-box">
+        <div class="cta-text-box">
+          <div class="cta-text">
+            <h2 class="cta-heading">Start a new life with us</h2>
+            <p class="cta-sub-title">Fill in the data below.</p>
+          </div>
+
+          <form class="cta-form" name="sign-up">
+            <div>
+              <input type="text" id="full-name" placeholder="Full Name" name="full-name" required />
+            </div>
+            <div>
+              <input type="email" id="email" placeholder="E-mail Address" name="email" required />
+            </div>
+            <div>
+              <select name="select-gender" id="select-gender">
+                <option value="">Select your gender:</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="secret">Secret</option>
+              </select>
+            </div>
+
+            <button class="btn--form">Sign up now</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="last-section">
+    <div class="thanks-container">
+      <h2 class="thanks-for-support">Thanks for the support. Drug use and addiction are preventable. Prevention programs
+        involving families, schools, communities, and the media may prevent or reduce drug use and addiction. These
+        programs include education and outreach to help people understand the risks of drug use.</h2>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p class="copyright">
+      Copyright © <span class="year">2023</span> by All
+      rights reserved.
+    </p>
+  </div>
+</footer>
+
+
 </body>
+
+</html>
+
+</body>
+
 </html>
